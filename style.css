@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(rgb(241, 231, 246), rgb(226, 202, 230));
+}
+
+#header {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(252, 255, 226);
+}
+
+#intro {
+  width: 70%;
+  height: 100%;
+
+  padding: 1.2rem;
+  margin: auto;
+  text-align: center;
+  border-radius: 3rem;
+
+  background-image: linear-gradient(white, rgb(177 150 116));
+}
+
+.heading {
+  color: rgb(121 33 57 / 55%);
+}
+
+#content {
+  height: 80%;
+
+  background-image: linear-gradient(white, rgb(93, 31, 55));
+}
+
+/*---  navigation  --- */
+#nav {
+  width: 25%;
+  height: 100%;
+  float: left;
+
+  background-image: linear-gradient(white, rgb(29 4 12));
+}
+
+#navitems {
+  height: 90%;
+  width: 90%;
+  background-color: #e8dedd;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-right: 9rem;
+  animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  70% {
+    box-shadow: 10px 20px 30px rgb(211, 216, 185);
+  }
+}
+
+/*--- content---*/
+#info {
+  width: 75%;
+  height: 100%;
+  float: right;
+
+  background-image: linear-gradient(white, rgb(29 4 12));
+
+  margin: auto;
+}
+
+#textinfo {
+  height: 90%;
+  width: 98%;
+  background-color: rgb(64 67 68 / 26%);
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+
+.blocks {
+  margin-left: 2rem;
+}
+
+.blocks div {
+  display: inline-block;
+  text-align: center;
+}
+
+#section1 {
+  height: 95%;
+  width: 30%;
+  background-color: rgb(182 183 173);
+  float: left;
+
+  margin-top: 1rem;
+  border-radius: 3rem;
+}
+
+#section2 {
+  height: 95%;
+  width: 30%;
+  background-color: rgb(197 201 204 / 78%);
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  float: left;
+  border-radius: 3rem;
+}
+
+#section3 {
+  height: 95%;
+  width: 30%;
+  background-color: rgb(183 195 206);
+  margin: auto;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 3rem;
+}
+
+.texts {
+  padding: 0.9rem;
+  justify-content: center;
+  text-align: justify;
+}
+
+.topic {
+  margin-left: 5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(38, 97, 79);
+  text-align: justify;
+}
+
+.inside_text {
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.003rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: rgb(163, 143, 116);
+}
+
+.bar {
+  width: 80%;
+  height: 0.2rem;
+  background-color: rgb(65, 60, 44);
+  margin: auto;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
